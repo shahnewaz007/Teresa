@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "619399538790",
+    "firebase_url": "https://teresa-8eca3.firebaseio.com",
+    "project_id": "teresa-8eca3",
+    "storage_bucket": "teresa-8eca3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619399538790:android:f189e350b04bfac05065a7",
+        "android_client_info": {
+          "package_name": "com.ayon.teresa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619399538790-sna1ial4rksr6jvvfa79uiuu7bddbr7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLLYV7-e8RMcoWvnb_S9mzVnFuPiCESDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619399538790-sna1ial4rksr6jvvfa79uiuu7bddbr7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

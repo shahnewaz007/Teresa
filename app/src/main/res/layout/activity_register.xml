@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ayon.teresa.Base.RegisterActivity"
+    android:background="@drawable/background2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="187dp"
+        android:layout_height="104dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/teresaaccount"/>
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/Age"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_style"
+
+
+         />
+
+
+
+    <EditText
+        android:id="@+id/user_phone"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/Guardian_name"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Guardian Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/guardian_phone"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Guardian_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guardian_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/ConfirmPassword"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_style"
+
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonRegister"
+
+        android:layout_width="203dp"
+        android:layout_height="44dp"
+        android:layout_below="@id/ConfirmPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_style"
+        android:text="Register"
+        android:textColor="#fff" />
+
+    <ProgressBar
+        android:id="@+id/progressBarRegister"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="38dp"
+        android:layout_height="27dp"
+        android:layout_alignTop="@+id/buttonRegister"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/login_redirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/progressBarRegister"
+        android:text="I already have an account."
+        android:layout_marginTop="30dp"/>
+
+
+
+
+
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
