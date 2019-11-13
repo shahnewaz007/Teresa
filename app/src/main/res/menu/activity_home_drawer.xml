@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_medicine"
+            android:icon="@drawable/medicine"
+            android:title="My Medicine" />
+        <item
+            android:id="@+id/nav_Medicine_Status"
+            android:icon="@drawable/status"
+            android:title="Medicine Status" />
+        <item
+        android:id="@+id/nav_Medicine_Shop"
+        android:icon="@drawable/shop"
+        android:title="Medicine Shop" />
+        <item
+            android:id="@+id/nav_Health_Tips"
+            android:icon="@drawable/tips"
+            android:title="Health Tips" />
+        <item
+            android:id="@+id/nav_Emergency"
+            android:icon="@drawable/emergency"
+            android:title="Emergency" />
+        <item
+            android:id="@+id/nav_scedule"
+            android:icon="@drawable/schedule"
+            android:title="Doctor's Scedule" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/account"
+                android:title="Account" />
+            <item
+                android:id="@+id/nav_logOut"
+                android:icon="@drawable/logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

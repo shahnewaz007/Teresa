@@ -12,6 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.ayon.teresa.Home;
 import com.ayon.teresa.MainActivity;
 import com.ayon.teresa.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -43,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
         if(fAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+            startActivity(new Intent(getApplicationContext(), Home.class));
             finish();
         }
 
@@ -72,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(LoginActivity.this, "Logged in Successfully!", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), Home.class));
                         }
                         else{
                             Toast.makeText(LoginActivity.this, "Error! "+task.getException().getMessage(), Toast.LENGTH_SHORT).show();

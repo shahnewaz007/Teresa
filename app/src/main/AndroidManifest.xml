@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ayon.teresa">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,6 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Base.AddMedicineActivity"></activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Base.SplashActivity">
             <intent-filter>
@@ -20,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Base.LoginActivity" />
-        <activity android:name=".Base.RegisterActivity"></activity>
+        <activity android:name=".Base.RegisterActivity" />
     </application>
 
 </manifest>

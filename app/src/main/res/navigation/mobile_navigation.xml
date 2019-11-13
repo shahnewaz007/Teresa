@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_my_medicine">
+
+
+
+    <fragment
+        android:id="@+id/nav_my_medicine"
+        android:name="com.ayon.teresa.ui.MyMedicineFragment"
+        android:label="My Medicine"
+        tools:layout="@layout/fragment_my_medicine" />
+
+
+    <fragment
+        android:id="@+id/nav_Medicine_Shop"
+        android:name="com.ayon.teresa.ui.MedicineShopFragment"
+        android:label="Medicine Shop"
+        tools:layout="@layout/fragment_medicine_shop" />
+
+    <fragment
+        android:id="@+id/nav_Medicine_Status"
+        android:name="com.ayon.teresa.ui.MedicineStatusFragment"
+        android:label="Medicine Status"
+        tools:layout="@layout/fragment_medicine_status" />
+
+    <fragment
+        android:id="@+id/nav_Health_Tips"
+        android:name="com.ayon.teresa.ui.HealthTipsFragment"
+        android:label="Health Tips"
+        tools:layout="@layout/fragment_health_tips" />
+
+    <fragment
+        android:id="@+id/nav_Emergency"
+        android:name="com.ayon.teresa.ui.EmergencyFragment"
+        android:label="Emergency"
+        tools:layout="@layout/fragment_emergency" />
+
+    <fragment
+        android:id="@+id/nav_scedule"
+        android:name="com.ayon.teresa.ui.DoctorScheduleFragment"
+        android:label="Doctor's Schedule"
+        tools:layout="@layout/fragment_doctor_schedule" />
+
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.ayon.teresa.ui.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+
+
+
+
+
+</navigation>
